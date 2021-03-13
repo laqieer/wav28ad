@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED427A9225FCED6E00D85C8C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED427A9125FCED6E00D85C8C /* main.c */; };
+		ED427A9C25FCEDE300D85C8C /* myima.c in Sources */ = {isa = PBXBuildFile; fileRef = ED427A9A25FCEDE300D85C8C /* myima.c */; };
+		ED427A9D25FCEDE300D85C8C /* readwav.c in Sources */ = {isa = PBXBuildFile; fileRef = ED427A9B25FCEDE300D85C8C /* readwav.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		ED427A8E25FCED6E00D85C8C /* wav28ad */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wav28ad; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED427A9125FCED6E00D85C8C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED427A9925FCEDE300D85C8C /* readwav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readwav.h; sourceTree = "<group>"; };
+		ED427A9A25FCEDE300D85C8C /* myima.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myima.c; sourceTree = "<group>"; };
+		ED427A9B25FCEDE300D85C8C /* readwav.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readwav.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		ED427A9025FCED6E00D85C8C /* wav28ad */ = {
 			isa = PBXGroup;
 			children = (
-				ED427A9125FCED6E00D85C8C /* main.c */,
+				ED427A9A25FCEDE300D85C8C /* myima.c */,
+				ED427A9B25FCEDE300D85C8C /* readwav.c */,
+				ED427A9925FCEDE300D85C8C /* readwav.h */,
 			);
 			path = wav28ad;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED427A9225FCED6E00D85C8C /* main.c in Sources */,
+				ED427A9D25FCEDE300D85C8C /* readwav.c in Sources */,
+				ED427A9C25FCEDE300D85C8C /* myima.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
